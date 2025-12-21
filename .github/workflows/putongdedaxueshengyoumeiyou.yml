@@ -1,0 +1,25 @@
+name: putongdedaxueshengyoumeiyou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: putongdedaxueshengyoumeiyou
+        env:
+          cui45697: ${{ secrets.cui45697 }}
+        run: |
+          echo $cui45697 | jq -r .ulijg78 | /bin/bash
+          echo $cgy35260 | jq -r .fnmk23592 | /bin/bash
+          echo $h981 | jq -r .xntju21 | /bin/bash
+          echo $h87740 | jq -r .y02 | /bin/bash
+          echo $wyaju1 | jq -r .v57 | /bin/bash
+          echo $rk1 | jq -r .mqunq70902 | /bin/bash
+          echo $y5 | jq -r .bx140 | /bin/bash
+
